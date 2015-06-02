@@ -2,6 +2,5 @@
 
 [![Build Status](https://travis-ci.org/futurecore/parallella-travis-example.svg)](https://travis-ci.org/gap-system/gap)
 
-A project which uses [travis-ci.org](https://travis-ci.org/) and a Docker container to test whether gap-system/gap-container builds successfully.
-
+A project which uses [travis-ci.org](https://travis-ci.org/) to test whether the Docker container for the core GAP system (gap-system/gap-container) builds successfully.
  
