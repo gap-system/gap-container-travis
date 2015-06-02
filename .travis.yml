@@ -26,5 +26,5 @@ before_script:
 
 script:
     - docker version
-    - docker run -t gapsystem/gap-container sh -c 'wget https://raw.githubusercontent.com/gap-system/gap-docker-travis/master/homophony.g ; /home/gap/inst/gap4r7/bin/gap.sh homophony.g' 
+    - docker run -t gapsystem/gap-container sh -c 'wget https://raw.githubusercontent.com/gap-system/gap-container-travis/master/homophony.g ; /home/gap/inst/gap4r7/bin/gap.sh homophony.g'
 
